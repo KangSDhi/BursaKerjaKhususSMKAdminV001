@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.sinon.bursakerjakhusussmkadmin.TambahLowongan">
+
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarTambahLowongan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tambah_lowongan"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+            android:id="@+id/scrollLayout"
+            android:layout_below="@+id/toolbarTambahLowongan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="false">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/gambarLogoPerusahaan"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/dell_logo"
+                />
+
+            </RelativeLayout>
+
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edIdPerusahaan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:inputType="text"
+                        android:hint="Id Perusahaan"
+                        android:textColor="@color/colorAccent"
+                        >
+                    <requestFocus/>
+                </android.support.design.widget.TextInputEditText>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edNamaPerusahaan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:inputType="text"
+                        android:hint="Nama Perusahaan"
+                        android:textColor="@color/colorAccent"
+                />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edNamaLowongan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:inputType="text"
+                        android:hint="Nama Lowongan"
+                        android:textColor="@color/colorAccent"
+                />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edWaktuBerlaku"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:inputType="text"
+                        android:hint="Waktu Berlaku"
+                        android:text="10/05/2018"
+                        android:textColor="@color/colorAccent"
+                />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edPersyaratan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:inputType="textMultiLine"
+                        android:hint="Persyaratan"
+                        android:textColor="@color/colorAccent"
+                />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                    android:id="@+id/tombolTambahLowongan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="tambah lowongan"
+                    android:textColor="@android:color/white"
+                    android:theme="@style/TombolKu"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

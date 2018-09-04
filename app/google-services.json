@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "1008971119290",
+    "firebase_url": "https://tugas-akhir-revisi.firebaseio.com",
+    "project_id": "tugas-akhir-revisi",
+    "storage_bucket": "tugas-akhir-revisi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008971119290:android:2b760568d48d6d64",
+        "android_client_info": {
+          "package_name": "com.example.sinon.bursakerjakhusussmk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008971119290-g4luqe3kan0qruet300okef7i0pbhomg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sinon.bursakerjakhusussmk",
+            "certificate_hash": "c152d11a4d6bcb075116fe2f1eb917c8dbd9e71c"
+          }
+        },
+        {
+          "client_id": "1008971119290-ibq80o495tflh4q4uombbfcg51g2ht12.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1008971119290-ibq80o495tflh4q4uombbfcg51g2ht12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLm0JIAuGNEhWgvlVHaxOitDlHVn9YDws"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008971119290-ibq80o495tflh4q4uombbfcg51g2ht12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008971119290:android:de30619c7f58ff4e",
+        "android_client_info": {
+          "package_name": "com.example.sinon.bursakerjakhusussmkadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008971119290-11m20ijsu90acml82htth1pa1kaag1h9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sinon.bursakerjakhusussmkadmin",
+            "certificate_hash": "3b7d6f792a20a54d2c2ea1f474267658daca9172"
+          }
+        },
+        {
+          "client_id": "1008971119290-ibq80o495tflh4q4uombbfcg51g2ht12.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1008971119290-ibq80o495tflh4q4uombbfcg51g2ht12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLm0JIAuGNEhWgvlVHaxOitDlHVn9YDws"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008971119290-ibq80o495tflh4q4uombbfcg51g2ht12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

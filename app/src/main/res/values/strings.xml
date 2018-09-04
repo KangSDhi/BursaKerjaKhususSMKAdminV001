@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bursa Kerja Khusus SMK Admin</string>
+    <string name="title_activity_dasbor_admin">DasborAdmin</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Tentang Aplikasi</string>
+    <string name="tambah_lowongan">Tambah Lowongan</string>
+
+    <string-array name="status">
+        <item>Belum Di Proses</item>
+        <item>Tidak Diterima</item>
+        <item>Diterima</item>
+    </string-array>
+</resources>

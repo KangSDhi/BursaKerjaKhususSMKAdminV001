@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_perusahaan"
+                android:icon="@drawable/ic_business"
+                android:title="Daftar Perusahaan"/>
+        <item
+                android:id="@+id/nav_pelamar"
+                android:icon="@drawable/ic_account_box"
+                android:title="Managemen Pelamar"/>
+
+        <item
+        android:id="@+id/nav_pengguna"
+        android:icon="@drawable/ic_verified_user_black_24dp"
+        android:title="Managemen Pengguna"
+        />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                    android:id="@+id/nav_akun_admin"
+                    android:icon="@drawable/ic_account_circle"
+                    android:title="Akun Admin"/>
+            <item
+                    android:id="@+id/nav_keluar"
+                    android:icon="@drawable/ic_exit_to_app"
+                    android:title="Keluar"/>
+        </menu>
+    </item>
+
+</menu>
